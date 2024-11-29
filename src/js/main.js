@@ -30,7 +30,7 @@ const playerProperty = {
     heightJump: 100
 }
 
-const ground = new Ground(canvas.width, canvas.height, "lightsteelblue");
+const ground = new Ground("/src/assets/cloud.png", canvas.width, canvas.height, 2);
 const player = new Player(playerProperty);
 const notification = new Notification(textNotification);
 
@@ -39,6 +39,7 @@ function animate() {
     player.create();
     notification.create();
 
+    ground.update();
     player.update();
 
     window.requestAnimationFrame(animate);
