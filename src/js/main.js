@@ -4,9 +4,9 @@ const board = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-let font = "bold 32px serif";
+let font = "21px 'Press Start 2P', cursive";
 if (canvas.width <= 480) {
-    font = "bold 21px serif";
+    font = "14px 'Press Start 2P', cursive";
 }
 
 const textNotification = {
