@@ -61,7 +61,9 @@ function animate() {
     if (player.play == true) {
         ground.update();
         player.update();
-        score.update();
+        if (score.currentScore < 999) {
+            score.update();
+        }
     }
 
     window.requestAnimationFrame(animate);

@@ -8,15 +8,13 @@ class Player {
             y: props.position.y
         };
         this.heightJump = props.heightJump;
-    
         this.velocity = {
             x: 0,
             y: 0
         };
         this.gravity = 0.5;
-    
-        this.scaleX = 1; // Skala lebar (default)
-        this.scaleY = 1; // Skala tinggi (default)
+        this.play = props.play;       
+
         console.log('player siap dibuat', props);
     }
     
@@ -43,9 +41,11 @@ class Player {
         if(player.position.y > ground) {
             this.position.y = ground;
             this.velocity.y = 0;
+            // this.play = false;
         } else if (player.position.y < 0) {
             this.position.y = 0;
             this.velocity.y = 0;
+            // this.play = false;
         }
     }
 
