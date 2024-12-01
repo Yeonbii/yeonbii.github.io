@@ -4,16 +4,20 @@ const board = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-let font = "21px 'Press Start 2P', cursive";
+const fontType = "'Press Start 2P', cursive";
+
+let notificationFontSize = 21;
 if (canvas.width <= 480) {
-    font = "14px 'Press Start 2P', cursive";
+    notificationFontSize = 12;
 }
 
-const textNotification = {
+const notificationText = {
     text: "Portofolio Belum Dibuat",
-    font: font,
+    fontType: fontType,
+    fontSize: notificationFontSize,
     color: "black",
     position: {
+        // Tengah || Kanan || Kiri || Bebas
         x: "Tengah",
         y: canvas.height / 4
     }
@@ -27,20 +31,38 @@ const playerProperty = {
         x: 50,
         y: canvas.height / 2
     },
-    heightJump: 100
+    heightJump: 100,
+    play: false
 }
+
+const scoreValue = {
+    fontType: fontType,
+    fontSize: 14,
+    color: "black",
+    position: {
+        // Tengah || Kanan || Kiri || Bebas
+        x: "Kanan", 
+        y: 30
+    }
+}
+
 
 const ground = new Ground("/src/assets/cloud.png", canvas.width, canvas.height, 2);
 const player = new Player(playerProperty);
-const notification = new Notification(textNotification);
+const notification = new Notification(notificationText);
+const score = new Score(scoreValue);
 
 function animate() {
     ground.create();
     player.create();
     notification.create();
+    score.create();
 
-    ground.update();
-    player.update();
+    if (player.play == true) {
+        ground.update();
+        player.update();
+        score.update();
+    }
 
     window.requestAnimationFrame(animate);
 }
@@ -49,7 +71,11 @@ window.addEventListener("keydown", function(callback) {
     player.movement(callback.code);
 });
 
-window.addEventListener("touchstart", function(event) {
+window.addEventListener("click", function(callback) {
+    player.movement('Touch');
+});
+
+window.addEventListener("touchstart", function() {
     // console.log(event);
     player.movement('Touch');
 });

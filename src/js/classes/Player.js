@@ -8,15 +8,18 @@ class Player {
             y: props.position.y
         };
         this.heightJump = props.heightJump;
-
+    
         this.velocity = {
             x: 0,
             y: 0
         };
         this.gravity = 0.5;
-
+    
+        this.scaleX = 1; // Skala lebar (default)
+        this.scaleY = 1; // Skala tinggi (default)
         console.log('player siap dibuat', props);
     }
+    
 
     // kinematic eequation physic
     // heightjump = vi^2 / (2 * gravity)
@@ -27,6 +30,7 @@ class Player {
         if (direction == "ArrowUp" || direction == "Space" || direction == "Touch") {
             console.log('loncat');
             this.velocity.y = -Math.sqrt(2 * this.gravity * this.heightJump);
+            this.play = true;
         }
     }
 

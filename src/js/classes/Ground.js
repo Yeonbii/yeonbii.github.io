@@ -25,10 +25,9 @@ class Ground {
     }
 
     update() {
-        // Update posisi x gambar
         this.position.x -= this.speed;
 
-        // Jika gambar sudah keluar dari layar, reset posisi gambar ke kanan
+        // reset gambar
         if (this.position.x <= -this.width) {
             this.position.x = 0;
         }
