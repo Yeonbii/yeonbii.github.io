@@ -104,7 +104,7 @@
             const filteredData = jsonData.filter(item => {
                 const matchesSearch = item.barang.toLowerCase().includes(searchText) ||
                     item.kategori.toLowerCase().includes(searchText) ||
-                    item.harga.toLowerCase().includes(searchText);
+                    item.harga.toString().includes(searchText);
 
                 const matchesCategory = selectedCategory === "0" || item.kategori === selectedCategory;
 
