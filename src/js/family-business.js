@@ -10,7 +10,7 @@ async function loadData() {
     try {
         const response = await fetch('../src/json/pricelist.json');
         jsonData = await response.json(); // Simpan data asli
-        // jsonData.sort((a, b) => a.kategori.localeCompare(b.kategori)); // Mengurutkan berdasarkan kategori
+        jsonData.sort((a, b) => a.barang.localeCompare(b.barang)); // Mengurutkan berdasarkan kategori
         const categoryList = [...new Set(jsonData.map(item => item.kategori))];
 
         populateCategoryOptions(categoryList);
