@@ -57,8 +57,8 @@ function populateData(data) {
         const row = document.createElement('div');
         row.innerHTML = `
                     <div class="data flex justify-content-between">
-                        <div class="bold">${item.barang}</div>
-                        <div>${formatCurrency(item.harga)}</div>
+                        <div class="pr-8">${item.barang}</div>
+                        <div class="bold price">${formatCurrency(item.harga)}</div>
                     </div>
                 `;
         bodyDataList.appendChild(row);
