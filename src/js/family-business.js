@@ -1,6 +1,7 @@
 const categoryFilter = document.getElementById('categoryFilter');
 const searchField = document.getElementById('searchField');
-const tbody = document.getElementById('tbody');
+// const tbody = document.getElementById('tbody');
+const bodyDataList = document.getElementById('bodyDataList');
 
 let jsonData = []; // Menyimpan data asli agar bisa difilter ulang
 
@@ -13,7 +14,8 @@ async function loadData() {
         const categoryList = [...new Set(jsonData.map(item => item.kategori))];
 
         populateCategoryOptions(categoryList);
-        populateTable(jsonData);
+        // populateTable(jsonData);
+        populateData(jsonData);
         setupFilters();
 
     } catch (error) {
@@ -32,18 +34,34 @@ function populateCategoryOptions(categoryList) {
 }
 
 // Fungsi untuk mengisi tabel dengan data
-function populateTable(data) {
-    tbody.innerHTML = ''; // Kosongkan tabel
+// function populateTable(data) {
+//     tbody.innerHTML = ''; // Kosongkan tabel
+
+//     data.forEach((item, index)  => {
+//         const row = document.createElement('tr');
+//         row.innerHTML = `
+//                     <td class="no">${index + 1}</td>
+//                     <td>${item.barang}</td>
+//                     <td>${item.kategori}</td>
+//                     <td>${formatCurrency(item.harga)}</td>
+//                 `;
+//         tbody.appendChild(row);
+//     });
+// }
+
+// Fungsi untuk mengisi list dengan data
+function populateData(data) {
+    bodyDataList.innerHTML = ''; // Kosongkan list
 
     data.forEach((item, index)  => {
-        const row = document.createElement('tr');
+        const row = document.createElement('div');
         row.innerHTML = `
-                    <td class="no">${index + 1}</td>
-                    <td>${item.barang}</td>
-                    <td>${item.kategori}</td>
-                    <td>${formatCurrency(item.harga)}</td>
+                    <div class="data flex justify-content-between">
+                        <div class="bold">${item.barang}</div>
+                        <div>${formatCurrency(item.harga)}</div>
+                    </div>
                 `;
-        tbody.appendChild(row);
+        bodyDataList.appendChild(row);
     });
 }
 
@@ -80,7 +98,7 @@ function filterData() {
     });
 
     // console.log('Filter Data', filteredData);
-    populateTable(filteredData);
+    populateData(filteredData);
 }
 
 // Jalankan saat halaman dimuat
