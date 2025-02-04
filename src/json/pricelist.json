@@ -1,0 +1,12 @@
+[
+    {
+        "barang": "Gula 1 kg (batimbang)",
+        "kategori": "Gula",
+        "harga": 18000
+    },
+    {
+        "barang": "Tepung 1 kg (batimbang)",
+        "kategori": "Tepung",
+        "harga": 18000
+    }
+]
