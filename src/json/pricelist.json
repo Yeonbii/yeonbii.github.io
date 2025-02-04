@@ -195,5 +195,257 @@
         "barang": "Minyak Alif 1 liter",
         "kategori": "Minyak",
         "harga": 0
+    },
+
+    {
+        "barang": "Kopi Mix 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 15000
+    },
+    {
+        "barang": "Kopi Kapal Api 1 Renteng Kecil",
+        "kategori": "Kopi",
+        "harga": 10000
+    },
+    {
+        "barang": "Kopi Kapal Api 1 Renteng Besar",
+        "kategori": "Kopi",
+        "harga": 39000
+    },
+    {
+        "barang": "Kopi Kapal Api Premium",
+        "kategori": "Kopi",
+        "harga": 33000
+    },
+    {
+        "barang": "Kopi Kapal Api Sedang",
+        "kategori": "Kopi",
+        "harga": 22000
+    },
+    {
+        "barang": "Kopi Top Gula Aren 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 17500
+    },
+    {
+        "barang": "Kopi Top Avocado 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 17500
+    },
+    {
+        "barang": "Kopi Top Cappuccino 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 18500
+    },
+    {
+        "barang": "Kopi Top White 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 14000
+    },
+    {
+        "barang": "Kopi Top Murni (Berhadiah Cangkir)",
+        "kategori": "Kopi",
+        "harga": 20000
+    },
+    {
+        "barang": "Kopi Top Murni Besar (Berhadiah Cangkir)",
+        "kategori": "Kopi",
+        "harga": 32000
+    },
+    {
+        "barang": "Kopi Mayor",
+        "kategori": "Kopi",
+        "harga": 10000
+    },
+    {
+        "barang": "Kopi ABC Moca 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 17000
+    },
+    {
+        "barang": "Kopi Pikopi 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 17500
+    },
+    {
+        "barang": "Kopi Luwak 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 15000
+    },
+    {
+        "barang": "Kopi Luwak Hitam Kecil 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 7500
+    },
+    {
+        "barang": "Kopi Luwak Hitam Mendunia 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 16000
+    },
+    {
+        "barang": "Kopi Good Day Cappuccino 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 21000
+    },
+    {
+        "barang": "Kopi Good Day (Rasa Lain) 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 15000
+    },
+    {
+        "barang": "Kopi Torabika Cappuccino 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 21000
+    },
+    {
+        "barang": "Kopi Creamy Latte 1 Renteng",
+        "kategori": "Kopi",
+        "harga": 15000
+    },
+
+    {
+        "barang": "Susu Dancow 1 Renteng",
+        "kategori": "Susu",
+        "harga": 35000
+    },
+    {
+        "barang": "Susu Dancow 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 4000
+    },
+    {
+        "barang": "Susu Zee 1 Renteng",
+        "kategori": "Susu",
+        "harga": 35000
+    },
+    {
+        "barang": "Susu Zee 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 4000
+    },
+    {
+        "barang": "Milo 1 Renteng + 1",
+        "kategori": "Susu",
+        "harga": 19000
+    },
+    {
+        "barang": "Milo 1 Renteng",
+        "kategori": "Susu",
+        "harga": 18000
+    },
+    {
+        "barang": "Milo 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 2000
+    },
+    {
+        "barang": "Hilo 1 Renteng",
+        "kategori": "Susu",
+        "harga": 15000
+    },
+    {
+        "barang": "Champion 1 Renteng",
+        "kategori": "Susu",
+        "harga": 18500
+    },
+    {
+        "barang": "Champion 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 2000
+    },
+    {
+        "barang": "Susu Bendera 1 Renteng",
+        "kategori": "Susu",
+        "harga": 26000
+    },
+    {
+        "barang": "Susu Bendera 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 3000
+    },
+    {
+        "barang": "Susu Entrasol 1 Renteng",
+        "kategori": "Susu",
+        "harga": 26000
+    },
+    {
+        "barang": "Susu Entrasol 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 3000
+    },
+    {
+        "barang": "Susu Enak 1 Renteng",
+        "kategori": "Susu",
+        "harga": 7000
+    },
+    {
+        "barang": "Susu Enak 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 1500
+    },
+    {
+        "barang": "Susu Indomilk 1 Renteng",
+        "kategori": "Susu",
+        "harga": 8500
+    },
+    {
+        "barang": "Susu Indomilk 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 1500
+    },
+    {
+        "barang": "Enak Kaleng",
+        "kategori": "Susu",
+        "harga": 11000
+    },
+    {
+        "barang": "Indomilk Kaleng",
+        "kategori": "Susu",
+        "harga": 12000
+    },
+    {
+        "barang": "Tiga Sapi Kaleng",
+        "kategori": "Susu",
+        "harga": 13000
+    },
+    {
+        "barang": "Dairy (Putih) Kaleng",
+        "kategori": "Susu",
+        "harga": 12500
+    },
+    {
+        "barang": "Dairy (Coklat) Kaleng",
+        "kategori": "Susu",
+        "harga": 13500
+    },
+    {
+        "barang": "Carnation Kaleng",
+        "kategori": "Susu",
+        "harga": 12000
+    },
+    {
+        "barang": "Carnation Evaporasi Kaleng",
+        "kategori": "Susu",
+        "harga": 16000
+    },
+    {
+        "barang": "Energen Kurma 1 Renteng",
+        "kategori": "Susu",
+        "harga": 22000
+    },
+    {
+        "barang": "Energen Kurma 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 2500
+    },
+    {
+        "barang": "Energen (Rasa Lain) 1 Renteng",
+        "kategori": "Susu",
+        "harga": 18000
+    },
+    {
+        "barang": "Energen (Rasa Lain) 1 Bungkus",
+        "kategori": "Susu",
+        "harga": 2000
     }
 ]
