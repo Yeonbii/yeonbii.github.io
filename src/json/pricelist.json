@@ -5,8 +5,195 @@
         "harga": 18000
     },
     {
+        "barang": "Gulaku",
+        "kategori": "Gula",
+        "harga": 22000
+    },
+    {
+        "barang": "Gula Vit",
+        "kategori": "Gula",
+        "harga": 20000
+    },
+    {
+        "barang": "Gula PSM",
+        "kategori": "Gula",
+        "harga": 19000
+    },
+    {
+        "barang": "Gula Halus Bola Deli 1 kg",
+        "kategori": "Gula",
+        "harga": 22000
+    },
+    {
+        "barang": "Gula Halus Bola Deli 1/2 kg",
+        "kategori": "Gula",
+        "harga": 11000
+    },
+
+    {
         "barang": "Tepung 1 kg (batimbang)",
         "kategori": "Tepung",
-        "harga": 18000
+        "harga": 9000
+    },
+    {
+        "barang": "Tepung Segitiga Biru Premium",
+        "kategori": "Tepung",
+        "harga": 14000
+    },
+    {
+        "barang": "Tepung Segitiga Biru Biasa",
+        "kategori": "Tepung",
+        "harga": 13000
+    },
+    {
+        "barang": "Tepung Beras",
+        "kategori": "Tepung",
+        "harga": 8000
+    },
+    {
+        "barang": "Tepung Kanji",
+        "kategori": "Tepung",
+        "harga": 7000
+    },
+    {
+        "barang": "Tepung Bumbu Sajiku",
+        "kategori": "Tepung",
+        "harga": 6000
+    },
+    {
+        "barang": "Tepung Racik Besar",
+        "kategori": "Tepung",
+        "harga": 6000
+    },
+    {
+        "barang": "Tepung Racik Kecil",
+        "kategori": "Tepung",
+        "harga": 2500
+    },
+    {
+        "barang": "Tepung Sasa Pisang, Bakwan, dan Ayam",
+        "kategori": "Tepung",
+        "harga": 6000
+    },
+    {
+        "barang": "Tepung Sasa Kecil",
+        "kategori": "Tepung",
+        "harga": 2500
+    },
+    {
+        "barang": "Tepung Ketan",
+        "kategori": "Tepung",
+        "harga": 11000
+    },
+
+    {
+        "barang": "Minyak 1/2 liter (batakar)",
+        "kategori": "Minyak",
+        "harga": 8500
+    },
+    {
+        "barang": "Minyakita 1 liter",
+        "kategori": "Minyak",
+        "harga": 17000
+    },
+    {
+        "barang": "Minyakita 1/2 liter",
+        "kategori": "Minyak",
+        "harga": 9000
+    },
+    {
+        "barang": "Kunci Mas 5 liter",
+        "kategori": "Minyak",
+        "harga": 107000
+    },
+    {
+        "barang": "Kunci Mas 2 liter (Kemasan)",
+        "kategori": "Minyak",
+        "harga": 40000
+    },
+    {
+        "barang": "Kunci Mas 2 liter (Botol)",
+        "kategori": "Minyak",
+        "harga": 45000
+    },
+    {
+        "barang": "Kunci Mas 1 liter (Kemasan)",
+        "kategori": "Minyak",
+        "harga": 19000
+    },
+    {
+        "barang": "Kunci Mas 1 liter (Botol)",
+        "kategori": "Minyak",
+        "harga": 22000
+    },
+    {
+        "barang": "Tropical 2 liter (Botol)",
+        "kategori": "Minyak",
+        "harga": 45000
+    },
+    {
+        "barang": "Tropical 2 liter (Kemasan)",
+        "kategori": "Minyak",
+        "harga": 43000
+    },
+    {
+        "barang": "Tropical 1 liter (Botol)",
+        "kategori": "Minyak",
+        "harga": 23000
+    },
+    {
+        "barang": "Filma 2 liter",
+        "kategori": "Minyak",
+        "harga": 40000
+    },
+    {
+        "barang": "Minyak Fitri 1 liter",
+        "kategori": "Minyak",
+        "harga": 19000
+    },
+    {
+        "barang": "Minyak Fitri 1/2 liter",
+        "kategori": "Minyak",
+        "harga": 9000
+    },
+    {
+        "barang": "Minyak Fitri kecil",
+        "kategori": "Minyak",
+        "harga": 5000
+    },
+    {
+        "barang": "Minyak Rizki 1 liter",
+        "kategori": "Minyak",
+        "harga": 19000
+    },
+    {
+        "barang": "Minyak Gading Sakti 1 liter",
+        "kategori": "Minyak",
+        "harga": 19000
+    },
+    {
+        "barang": "Minyak Gading 1/2 liter",
+        "kategori": "Minyak",
+        "harga": 9000
+    },
+    {
+        "barang": "Minyak Jar 2 liter",
+        "kategori": "Minyak",
+        "harga": 37000
+    },
+    {
+        "barang": "Minyak Jar 1 liter",
+        "kategori": "Minyak",
+        "harga": 19000
+    },
+    {
+        "barang": "Minyak Alif 2 liter",
+        "kategori": "Minyak",
+        "harga": 0
+    },
+    {
+        "barang": "Minyak Alif 1 liter",
+        "kategori": "Minyak",
+        "harga": 0
     }
 ]
