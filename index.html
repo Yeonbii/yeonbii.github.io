@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="h-full">
 
 <head>
   <meta charset="UTF-8">
@@ -9,60 +9,46 @@
   <link rel="icon" type="image/png" href="src/img/icon-border.png">
 </head>
 
-<body class="bg-black text-white">
+<body class="h-full flex items-center bg-black text-white">
 
-  <!-- Header -->
-  <header class="fixed top-0 left-0 w-full flex items-center z-50">
-    <div class="container">
-      <div class="flex items-center justify-between">
+  <div class="container">
+    <div class="flex flex-col items-center">
+      <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px]">
+      <h1 class="text-xl font-bold text-center">
+        Hello, This is <span class="italic text-primary">Yeonbii</span>
+      </h1>
+      <h3 class="text-center mt-2">
+        I'm a programmer who loves gaming and getting lost in stories
+      </h3>
 
-        <!-- Logo -->
-        <div class="flex items-center py-2">
-          <a href="/" class="">
-            <img src="../src/img/icon-border.png" alt="icon" width="40" height="40">
+      <div class="relative w-full md:w-4/5 mt-4">
+        <button id="menuToggle"
+          class="flex items-center justify-between w-full bg-white text-secondary font-semibold italic px-4 py-2 rounded-full hover:bg-gray-300 transition">
+          Where would you like to go?
+          <i class="fa-solid fa-chevron-down transition-transform duration-300"></i>
+        </button>
+
+        <div id="menuOptions"
+          class="absolute z-10 mt-2 w-full bg-white text-secondary font-semibold rounded-2xl overflow-hidden hidden">
+          <a href="portofolio.html" class="flex items-center justify-between px-4 py-2 hover:bg-gray-300 transition">
+            Portfolio
+            <i class="fa-solid fa-folder-open"></i>
+          </a>
+          <a href="#" class="flex items-center justify-between px-4 py-2 hover:bg-gray-300 transition">
+            Playground
+            <i class="fa-solid fa-dice"></i>
           </a>
         </div>
-        <!-- End Logo -->
-
-        <!-- Menu -->
-        <nav id="nav-menu" class="py-5 bg-transparent max-w-full">
-          <ul class="flex justify-end">
-            <li class="group">
-              <a href="#" class="text-base py-2 ms-2 group-hover:text-primary">
-                Projects
-              </a>
-            </li>
-            <li class="group">
-              <a href="#" class="text-base py-2 ms-2 group-hover:text-primary">
-                Playground
-              </a>
-            </li>
-            <li class="group">
-              <a href="#" class="text-base py-2 ms-2 group-hover:text-primary">
-                About
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <!-- Menu End -->
-
       </div>
-    </div>
-  </header>
-  <!-- Header End -->
 
-  <main class="h-screen flex items-center">
-    <div class="container">
-      <div class="flex flex-col items-center">
-        <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px]">
-        <h1 class="text-xl font-bold text-center">
-          Hello, This is <span class="italic text-primary">Yeonbii</span>
-        </h1>
-      </div>
+
     </div>
-  </main>
+  </div>
 
   <script src="src/js/script.js"></script>
+
+  <script src="https://kit.fontawesome.com/fffa6787c5.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

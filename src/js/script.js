@@ -1,5 +1,9 @@
+const avatarImg = document.querySelector('#avatar');
+const toggle = document.querySelector('#menuToggle');
+const iconToggle = toggle.querySelector('i');
+const options = document.querySelector('#menuOptions');
+
 let isHovered = false;
-const avatarImg = document.getElementById('avatar');
 
 function kedip() {
     if (isHovered) {
@@ -31,4 +35,16 @@ avatarImg.addEventListener('mouseleave', () => {
     isHovered = false;
     avatarImg.src = "src/img/avatar.png";
     intervalId = setInterval(kedip, 5000);
+});
+
+toggle.addEventListener('click', () => {
+    options.classList.toggle('hidden');
+    iconToggle.classList.toggle('rotate-180');
+});
+
+// Optional: klik di luar dropdown nutupin menu
+document.addEventListener('click', function (e) {
+    if (!toggle.contains(e.target) && !options.contains(e.target)) {
+        options.classList.add('hidden');
+    }
 });
