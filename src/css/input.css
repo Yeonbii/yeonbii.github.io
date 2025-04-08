@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #40b9d8;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.container {
+    @apply max-w-[720px] mx-auto px-6;
+}
+
+/* Garis pada Tombol Menu */
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-white;
+}
+
+/* Perubahan hamburger */
+.hamburger-active > span:nth-child(1) {
+    @apply -rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+.hamburger-active > span:nth-child(3) {
+    @apply rotate-45;
+}

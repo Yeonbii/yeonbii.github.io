@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="h-full">
+<html>
 
 <head>
   <meta charset="UTF-8">
@@ -9,14 +9,58 @@
   <link rel="icon" type="image/png" href="src/img/icon.png">
 </head>
 
-<body class="flex flex-col justify-center items-center h-full bg-black">
+<body class="bg-black text-white">
 
-  <div class="flex flex-col items-center p-4">
-    <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px]">
-    <h1 class="text-2xl font-bold text-center text-white md:text-4xl">
-      Hello, This is <span class="italic text-purple-500">Yeonbii</span>
-    </h1>
-  </div>
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full flex items-center z-50">
+    <div class="container">
+      <div class="flex items-center justify-between">
+
+        <!-- Logo -->
+        <div class="flex items-center py-2">
+          <a href="/" class="">
+            <img src="../src/img/icon-border.png" alt="icon" width="40" height="40">
+          </a>
+        </div>
+        <!-- End Logo -->
+
+        <!-- Menu -->
+        <nav id="nav-menu" class="py-5 bg-transparent max-w-full">
+          <ul class="flex justify-end">
+            <li class="group">
+              <a href="#" class="text-base py-2 ms-2 group-hover:text-primary">
+                Projects
+              </a>
+            </li>
+            <li class="group">
+              <a href="#" class="text-base py-2 ms-2 group-hover:text-primary">
+                Playground
+              </a>
+            </li>
+            <li class="group">
+              <a href="#" class="text-base py-2 ms-2 group-hover:text-primary">
+                About
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Menu End -->
+
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <main class="h-screen flex items-center">
+    <div class="container">
+      <div class="flex flex-col items-center">
+        <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px]">
+        <h1 class="text-xl font-bold text-center">
+          Hello, This is <span class="italic text-primary">Yeonbii</span>
+        </h1>
+      </div>
+    </div>
+  </main>
 
   <script src="src/js/script.js"></script>
 </body>
