@@ -14,9 +14,12 @@
 
   <div class="container">
     <div class="flex flex-col items-center">
-      <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px]">
+
+      <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px] select-none"
+        oncontextmenu="return false" draggable="false">
+
       <h1 class="text-xl font-bold text-center text-white">
-        Hello, This is <span class="italic text-primary">Yeonbii</span>
+        Code name <span class="italic text-primary">Yeonbii</span>
       </h1>
       <h3 class="text-center mt-2">
         I'm a programmer who loves gaming and getting lost in stories
@@ -31,7 +34,7 @@
 
         <div id="menuOptions"
           class="absolute z-10 mt-2 w-full bg-white text-secondary font-semibold rounded-2xl overflow-hidden hidden">
-          <a href="portofolio.html" class="flex items-center justify-between px-4 py-2 hover:bg-gray-300 transition">
+          <a href="portofolio" class="flex items-center justify-between px-4 py-2 hover:bg-gray-300 transition">
             Portofolio
             <i class="fa-solid fa-folder-open"></i>
           </a>
