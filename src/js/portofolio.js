@@ -1,35 +1,36 @@
-const emojiImg = document.querySelector('#emoji');
+const emojiDiv = document.querySelector('#emoji');
+const emojiImg = emojiDiv.querySelector('img');
 let lastTap = 0;
 
 function angryEmoji() {
-    emojiImg.src = "src/img/emoji-eyes-angry.png";
+    emojiImg.src = "src/img/emoji3.png";
 }
 
 function defaultEmoji() {
-    emojiImg.src = "src/img/emoji-eyes-default.png";
+    emojiImg.src = "src/img/emoji1.png";
 }
 
 function happyEmoji() {
-    emojiImg.src = "src/img/emoji-eyes-happy.png";
+    emojiImg.src = "src/img/emoji2.png";
 }
 
 // Hover (PC): senyum
-emojiImg.addEventListener('mouseenter', () => {
+emojiDiv.addEventListener('mouseenter', () => {
     happyEmoji();
 });
 
 // Hover keluar (PC): default
-emojiImg.addEventListener('mouseleave', () => {
+emojiDiv.addEventListener('mouseleave', () => {
     defaultEmoji();
 });
 
 // Double click (PC): marah
-emojiImg.addEventListener('dblclick', () => {
+emojiDiv.addEventListener('dblclick', () => {
     angryEmoji();
 });
 
 // Double tap (HP): marah
-emojiImg.addEventListener('touchend', () => {
+emojiDiv.addEventListener('touchend', () => {
     const currentTime = new Date().getTime();
     const tapLength = currentTime - lastTap;
 
