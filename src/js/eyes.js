@@ -3,15 +3,15 @@ const emojiImg = emojiDiv.querySelector('img');
 let lastTap = 0;
 
 function angryEmoji() {
-    emojiImg.src = "src/img/emoji3.png";
+    emojiImg.src = "/src/img/emoji3.png";
 }
 
 function defaultEmoji() {
-    emojiImg.src = "src/img/emoji1.png";
+    emojiImg.src = "/src/img/emoji1.png";
 }
 
 function happyEmoji() {
-    emojiImg.src = "src/img/emoji2.png";
+    emojiImg.src = "/src/img/emoji2.png";
 }
 
 // Hover (PC): senyum
