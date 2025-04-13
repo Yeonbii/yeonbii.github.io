@@ -5,6 +5,7 @@
         "desc": "An information system for managing alumni data, publishing news, and supporting multi-level user access.",
         "keywords": ["Academic Project", "Team Project", "Laravel", "Bootstrap", "Filament", "Multi-level User"],
         "links": {
+            "code": "https://github.com/FShou/SI-Data-Alumni.git", 
             "doc": "https://drive.google.com/drive/folders/1Xlz1GPJQNUlqSIxcc28_pu8tLACDZ4OU?usp=sharing",
             "demo": null
         }
@@ -15,6 +16,7 @@
         "desc": "A survey web app where users can manage questions, view statistics, and archive survey data, while the public can submit responses.",
         "keywords": ["Internship", "Academic Project", "Laravel", "Tailwind CSS", "Chart.js"],
         "links": {
+            "code": "https://github.com/Yeonbii/pst-sukai-ya.git",
             "doc": "https://drive.google.com/drive/folders/1ZkyEKnwfUyWHHpYIhTWZDwF1_ZU5DaAC?usp=sharing",
             "demo": null
         }
@@ -23,10 +25,22 @@
         "title": "SI Masjid Ad-Dienul Amin",
         "year": 2024,
         "desc": "An information system for Ad-Dienul Amin Mosque with a public landing page and multi-level user roles to manage finance, assets, activity schedules, and news.",
-        "keywords": ["Capstone Project", "Campus Project", "Team Project", "Laravel", "Bootstrap", "Premium Template", "UI Customization", "Multi-level User"],
+        "keywords": ["Capstone Project", "Campus Project", "Team Project", "Laravel", "Bootstrap", "Premium Template", "Multi-level User"],
         "links": {
+            "code": null,
             "doc": "https://drive.google.com/drive/folders/1ew7d8Hmxbu3p-trDaNkD0pidgVjwF0O0?usp=sharing",
             "demo": null
         }
-    }
+    },
+    {
+        "title": "Three Men's Morris",
+        "year": 2025,
+        "desc": "A browser-based implementation of the traditional strategy board game 'Three Men's Morris', where two players take turns placing and moving their pawns to align them diagonally or block the opponent.",
+        "keywords": ["Personal Project", "Vanilla JavaScript", "Tailwind CSS", "Game", "Board Game", "Two Player"],
+        "links": {
+            "code": "https://github.com/Yeonbii/three-mens-morris.git",
+            "doc": null,
+            "demo": "/playground/three-mens-morris"
+        }
+    }    
 ]

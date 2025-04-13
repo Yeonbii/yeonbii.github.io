@@ -21,6 +21,14 @@ function populateData(data) {
         ).join(' ');
 
         let linksHTML = '';
+        if (item.links?.demo) {
+            linksHTML += `
+                <a href="${item.links.demo}" target="_blank" class="group font-semibold hover:text-white transition duration-300 ease-in-out">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span class="ms-1 group-hover:underline">Demo</span>
+                </a>
+            `;
+        }
         if (item.links?.doc) {
             linksHTML += `
                 <a href="${item.links.doc}" target="_blank" class="group font-semibold hover:text-white transition duration-300 ease-in-out">
@@ -29,11 +37,11 @@ function populateData(data) {
                 </a>
             `;
         }
-        if (item.links?.demo) {
+        if (item.links?.code) {
             linksHTML += `
-                <a href="${item.links.demo}" target="_blank" class="group font-semibold hover:text-white transition duration-300 ease-in-out">
-                    <i class="fa-solid fa-rocket"></i>
-                    <span class="ms-1 group-hover:underline">Demo</span>
+                <a href="${item.links.code}" target="_blank" class="group font-semibold hover:text-white transition duration-300 ease-in-out">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="ms-1 group-hover:underline">Code</span>
                 </a>
             `;
         }
