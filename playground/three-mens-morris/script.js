@@ -1,10 +1,12 @@
-const cellValues = [2, 2, 2, null, null, null, 1, 1, 1];
 const cells = document.querySelectorAll('#game-board .cell');
-const playerText = document.getElementById('player');
-const statusText = document.getElementById('status');
+const playerText = document.querySelector('#player-text');
+const statusText = document.querySelector('#status-text');
+const resetButton = document.querySelector('#reset-button');
 
+let cellValues = [2, 2, 2, null, null, null, 1, 1, 1];
 let currentPlayer = 1; // 1 for white, 2 for black
 let selectedIndex = null;
+let gameOver = false;
 
 function updateCell() {
     cells.forEach(cell => {
@@ -24,11 +26,6 @@ function updateCell() {
         }
     });
 
-    if (currentPlayer === 1) {
-        playerText.innerHTML = "White Pawn Player's Turn";
-    } else {
-        playerText.innerHTML = "Black Pawn Player's Turn";
-    }
 }
 
 function selectPawn(index) {
@@ -93,6 +90,45 @@ function isValidMove(selectedPawn, selectedStep) {
 
 function switchPlayer() {
     currentPlayer = currentPlayer === 1 ? 2 : 1;
+
+    if (currentPlayer === 1) {
+        playerText.innerHTML = "White Pawn Player's Turn";
+    } else {
+        playerText.innerHTML = "Black Pawn Player's Turn";
+    }
+
+    statusText.innerText = "Choose your pawn!";
+}
+
+function checkStuckOpponent() {
+    const opponent = currentPlayer === 1 ? 2 : 1;
+
+    // Find all opponent's pawns
+    const opponentPawns = cellValues
+        .map((val, idx) => val === opponent ? idx : null)
+        .filter(idx => idx !== null);
+
+    // Check if any of the opponent's pawns can still move
+    return opponentPawns.every(index => getValidMoves(index).length === 0);
+}
+
+function checkWin() {
+    const winPatterns = [
+        [0, 4, 8],
+        [2, 4, 6],
+    ];
+
+    return winPatterns.some(pattern =>
+        pattern.every(i => cellValues[i] === currentPlayer)
+    );
+}
+
+function highlightTheWinner() {
+    cellValues.forEach((value, index) => {
+        if (value === currentPlayer) {
+            cells[index].classList.add('bg-violet-700');
+        }
+    });
 }
 
 updateCell();
@@ -102,6 +138,8 @@ cells.forEach(cell => {
         const index = Number(cell.dataset.index);
         console.log('cell:', index);
         console.log('cell value: ', cellValues[index]);
+
+        if (gameOver === true) return;
 
         if (selectedIndex === null) {
 
@@ -135,20 +173,51 @@ cells.forEach(cell => {
 
             // invalid move
             if (!isValidMove(selectedIndex, index)) {
-                statusText.innerText = "Invalid move!";
+                statusText.innerText = 'Invalid move!';
                 return;
             }
 
-            // Pindahkan pion
+            // Move pawn
             cellValues[index] = currentPlayer;
             cellValues[selectedIndex] = null;
             selectedIndex = null;
 
-            // Perbarui tampilan papan
-            statusText.innerText = "Choose your pawn!";
-            switchPlayer();
             updateCell();
+
+            if (checkStuckOpponent()) {
+                playerText.innerText = currentPlayer === 1
+                    ? 'White Pawn Wins! (Black Pawn Has No moves)'
+                    : 'Black Pawn Wins! (White Pawn Has No moves)';
+
+                statusText.innerText = 'Game Over';
+                gameOver = true;
+            }
+
+            if (checkWin()) {
+                playerText.innerText = currentPlayer === 1 ? 'White Pawn Wins!' : 'Black Pawn Wins!';
+                statusText.innerText = 'Game Over';
+                gameOver = true;
+            }
+
+            if (gameOver === true) {
+                highlightTheWinner();
+                return;
+            }
+
+            switchPlayer();
+
         }
 
     });
-});       
+});
+
+resetButton.addEventListener('click', () => {
+    cellValues = [2, 2, 2, null, null, null, 1, 1, 1];
+    currentPlayer = 1;
+    selectedIndex = null;
+    gameOver = false;
+
+    playerText.innerText = "White Pawn Player's Turn";
+    statusText.innerText = "Choose your pawn!";
+    updateCell();
+});
