@@ -10,6 +10,7 @@
     --color-violet-400: oklch(70.2% 0.183 293.541);
     --color-violet-700: oklch(49.1% 0.27 292.581);
     --color-gray-300: oklch(87.2% 0.01 258.338);
+    --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-neutral-700: oklch(37.1% 0 0);
     --color-neutral-900: oklch(20.5% 0 0);
     --color-black: #000;
@@ -466,6 +467,9 @@
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
   }
+  .pt-12 {
+    padding-top: calc(var(--spacing) * 12);
+  }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
   }
@@ -515,6 +519,9 @@
   }
   .text-black {
     color: var(--color-black);
+  }
+  .text-gray-400 {
+    color: var(--color-gray-400);
   }
   .text-primary {
     color: var(--color-primary);
