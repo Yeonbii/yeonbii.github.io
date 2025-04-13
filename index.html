@@ -12,27 +12,33 @@
 
 <body class="h-full flex items-center bg-black text-secondary">
 
-  <div class="container">
-    <div class="flex flex-col items-center">
+  <main class="container">
+    <!-- Section: Introduction -->
+    <section aria-label="Introduction">
+      <div class="w-full">
+        <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px] select-none mx-auto"
+          oncontextmenu="return false" draggable="false">
 
-      <img id="avatar" src="src/img/avatar-close-eyes.png" alt="avatar" class="max-w-[300px] select-none"
-        oncontextmenu="return false" draggable="false">
+        <h1 class="text-xl font-bold text-center text-white">
+          Code name <span class="italic text-primary">Yeonbii</span>
+        </h1>
+        <h3 class="text-center mt-2">
+          I'm a programmer who loves gaming and getting lost in stories
+        </h3>
+      </div>
+    </section>
+    <!-- Section End -->
 
-      <h1 class="text-xl font-bold text-center text-white">
-        Code name <span class="italic text-primary">Yeonbii</span>
-      </h1>
-      <h3 class="text-center mt-2">
-        I'm a programmer who loves gaming and getting lost in stories
-      </h3>
-
-      <div class="relative w-full mt-4 md:w-4/5">
-        <button id="menuToggle"
+    <!-- Section: Navigation -->
+    <section aria-label="Navigation">
+      <div class="relative w-full mt-4 mx-auto md:w-4/5">
+        <button id="menu-toggle"
           class="flex items-center justify-between w-full bg-white text-secondary font-semibold italic px-4 py-2 rounded-full hover:bg-gray-300 transition cursor-pointer">
           Where would you like to go?
           <i class="fa-solid fa-chevron-down transition-transform duration-300"></i>
         </button>
 
-        <div id="menuOptions"
+        <div id="menu-options"
           class="absolute z-10 mt-2 w-full bg-white text-secondary font-semibold rounded-2xl overflow-hidden hidden">
           <a href="portofolio" class="flex items-center justify-between px-4 py-2 me-2 hover:bg-gray-300 transition">
             Portofolio
@@ -44,30 +50,34 @@
           </a>
         </div>
       </div>
+    </section>
+    <!-- Section End -->
 
+    <!-- Section: Social Media -->
+    <section aria-label="Social Media">
       <div class="w-full mt-4">
         <div class="flex items-center justify-center">
-          <a href="#"
+          <a href="https://github.com/Yeonbii" target="_blank"
             class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="#"
+          <a href="https://www.linkedin.com/in/muhammad-shalahuddin-726111304/" target="_blank"
             class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="#"
+          <a href="https://www.instagram.com/shalahuddinii/" target="_blank"
             class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="#"
+          <a href="mailto:shalahuddinm002@gmail.com"
             class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
             <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
       </div>
-
-    </div>
-  </div>
+    </section>
+    <!-- Section End -->
+  </main>
 
   <script src="src/js/script.js"></script>
 

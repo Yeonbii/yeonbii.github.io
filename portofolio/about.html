@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yeonbii</title>
-    <link href="/src/css/output.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/src/img/icon-border.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yeonbii - Portofolio</title>
+    <link href="/src/css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/src/img/icon-border.png" />
 </head>
 
 <body class="bg-black text-secondary">
@@ -17,124 +17,144 @@
             <div class="flex items-center justify-between">
 
                 <!-- Logo -->
-                <div class="flex items-center py-2">
-                    <a href="/" class="">
-                        <img src="/src/img/icon-border.png" alt="icon" width="40" height="40">
-                    </a>
-                </div>
-                <!-- End Logo -->
+                <a href="/" class="py-2" aria-label="Back to Main Page">
+                    <img src="/src/img/icon-border.png" alt="icon" width="40" height="40" />
+                </a>
 
                 <!-- Menu -->
-                <nav id="nav-menu" class="py-5 max-w-full">
+                <nav id="nav-menu" class="py-5 max-w-full" aria-label="Main Navigation">
                     <ul class="flex justify-end">
                         <li class="group">
                             <a href="/portofolio"
-                                class="text-base py-2 ms-2 group-hover:text-white transition ease-in-out duration-200">
+                                class="text-base py-2 ms-2 group-hover:text-white transition duration-200">
                                 Home
                             </a>
                         </li>
                         <li class="group">
                             <a href="/portofolio/about.html"
-                                class="text-white text-base py-2 ms-2 group-hover:text-white transition ease-in-out duration-200">
+                                class="text-white text-base py-2 ms-2 group-hover:text-white transition duration-200">
                                 About
                             </a>
                         </li>
                         <li class="group">
-                            <a href="#"
-                                class="text-base py-2 ms-2 group-hover:text-white transition ease-in-out duration-200">
+                            <a href="/portofolio/projects.html"
+                                class="text-base py-2 ms-2 group-hover:text-white transition duration-200">
                                 Projects
                             </a>
                         </li>
                     </ul>
                 </nav>
-                <!-- Menu End -->
+                <!-- End Menu -->
 
             </div>
         </div>
     </header>
-    <!-- Header End -->
+    <!-- End Header -->
 
-    <div class="container">
-        <div id="emoji" class="w-full border border-white rounded-lg h-30 overflow-hidden">
-            <img src="/src/img/emoji1.png" alt="" class="h-full mx-auto -mt-2 select-none" oncontextmenu="return false" draggable="false">
-        </div>
-        <div class="mb-5">
+    <main class="container">
+
+        <!-- Section: Header Emoji -->
+        <section aria-label="Emoji Display">
+            <div id="emoji" class="w-full border border-white rounded-lg h-30 overflow-hidden">
+                <img src="/src/img/emoji1.png" alt="" class="h-full mx-auto -mt-2 select-none"
+                    oncontextmenu="return false" draggable="false">
+            </div>
+        </section>
+        <!-- Section End -->
+
+        <!-- Section: Profile  -->
+        <section aria-label="Profile">
             <div class="flex flex-wrap mb-3">
                 <div class="w-full flex justify-center mb-3 lg:mb-0 md:w-auto md:ms-5">
-                    <img src="/src/img/me.jpg" alt="my picture" class="w-20 rounded-2xl md:w-25 -mt-10">
+                    <img src="/src/img/me.jpg" alt="my picture" class="w-20 rounded-2xl md:w-25 -mt-10" />
                 </div>
                 <div class="w-full flex flex-col justify-end items-center md:flex-1 md:items-start md:ms-5">
-                    <h1 class="text-xl font-bold text-white mb-1">
-                        Muhammad Shalahuddin
-                    </h1>
-                    <h3>
-                        Programmer · Web Developer
-                    </h3>
+                    <h1 class="text-xl font-bold text-white mb-1">Muhammad Shalahuddin</h1>
+                    <h3>Programmer · Web Developer</h3>
                 </div>
             </div>
-            <div class="w-full">
+
+            <div class="w-full mb-5">
                 <p class="mb-2">
-                    I'm a programmer from Indonesia. I hold an associate degree in Informatics Engineering and take pride in my tech in algorithms and programming logic.
+                    I'm a programmer from Indonesia. I hold an associate degree in Informatics Engineering and take
+                    pride in my tech in algorithms and programming logic.
                 </p>
                 <p class="mb-2">
-                    Ever since I was a kid, I've loved math — especially logic-based puzzles and games. For me, programming is a natural extension of that passion.
+                    Ever since I was a kid, I've loved math — especially logic-based puzzles and games. For me,
+                    programming is a natural extension of that passion.
                 </p>
                 <p class="mb-2">
-                    Outside of coding, I’m a story enthusiast. I enjoy diving into anime, films, manga, manhwa, manhua, light novels, and all kinds of narratives. I believe creativity and logic can go hand in hand.
+                    Outside of coding, I’m a story enthusiast. I enjoy diving into anime, films, manga, manhwa, manhua,
+                    light novels, and all kinds of narratives. I believe creativity and logic can go hand in hand.
                 </p>
             </div>
-        </div>
+        </section>
+        <!-- Section End -->
 
-        <div id="tab-buttons" class="flex items-center mb-5">
-            <div data-tab-button="tech" class="text-white border-b text-sm w-1/2 h-15 flex flex-col items-center justify-center hover:text-white hover:border-b transition duration-300 cursor-pointer">
-                <i class="fa-solid fa-code transition duration-300 cursor-pointer"></i>
-                <span class="mt-1">Tech</span>
+        <!-- Section: Skills and Certificates -->
+        <section aria-label="Skills and Certificates">
+            <!-- Tab Buttons -->
+            <div id="tab-buttons" class="flex items-center mb-5">
+                <div data-tab-button="tech"
+                    class="text-white border-b text-sm w-1/2 h-15 flex flex-col items-center justify-center hover:text-white hover:border-b transition duration-300 cursor-pointer">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="mt-1">Tech</span>
+                </div>
+                <div data-tab-button="certificates"
+                    class="text-sm w-1/2 h-15 flex flex-col items-center justify-center hover:text-white hover:border-b transition duration-300 cursor-pointer">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span class="mt-1">Certificates</span>
+                </div>
             </div>
-            <div data-tab-button="certificates" class="text-sm w-1/2 h-15 flex flex-col items-center justify-center hover:text-white hover:border-b transition duration-300 cursor-pointer">
-                <i class="fa-solid fa-layer-group"></i>
-                <span class="mt-1">Certificates</span>
+            <!-- Tab Buttons End -->
+
+            <!-- Tab Contents -->
+            <div id="tab-contents" class="w-full mb-5">
+
+                <!-- Tech Tab -->
+                <div id="content-techs" data-tab-content="tech" class="flex flex-wrap justify-center items-center">
+                    <img src="/src/img/logo/HTML5_logo_and_wordmark.svg.png" alt="html"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/CSS3_logo_and_wordmark.svg.png" alt="css"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Unofficial_JavaScript_logo_2.svg.png" alt="javascript"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/PHP-logo.svg.png" alt="php"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Laravel.svg.png" alt="laravel"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Bootstrap_logo.svg.png" alt="bootstrap"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Tailwind_CSS_Logo.svg.png" alt="tailwind-css"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Mysql_logo.png" alt="mysql"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/C_Logo.png" alt="c"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Java-Logo.svg.png" alt="java"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                    <img src="/src/img/logo/Python_logo_01.svg.png" alt="python"
+                        class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0" />
+                </div>
+
+                <!-- Certificates Tab -->
+                <div id="content-certificates" data-tab-content="certificates" class="hidden">
+                    <!-- ... -->
+                </div>
+
             </div>
-        </div>
+            <!-- Tab Contents End -->
+        </section>
+        <!-- Section End -->
 
-        <div id="tab-contents" class="w-full mb-5">
+    </main>
 
-            <!-- Content Tech -->
-            <div id="content-techs" data-tab-content='tech' class="flex flex-wrap justify-center items-center">
-                <img src="/src/img/logo/HTML5_logo_and_wordmark.svg.png" alt="html" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/CSS3_logo_and_wordmark.svg.png" alt="css" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Unofficial_JavaScript_logo_2.svg.png" alt="javascript" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/PHP-logo.svg.png" alt="php" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Laravel.svg.png" alt="laravel" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Bootstrap_logo.svg.png" alt="bootstrap" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Tailwind_CSS_Logo.svg.png" alt="tailwind-css" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Mysql_logo.png" alt="mysql" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/C_Logo.png" alt="c" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Java-Logo.svg.png" alt="java" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-                <img src="/src/img/logo/Python_logo_01.svg.png" alt="python" class="h-10 mx-1.5 mb-3 md:mx-5 md:mb-5 md:h-15 grayscale hover:grayscale-0">
-            </div>
-            <!-- Content Tech End -->
-
-            <!-- Content Certificates -->
-            <div id="content-certificates" data-tab-content="certificates" class="hidden">
-                <a href="#" target="_blank">
-                    <div class="border-b border-secondary p-3 mb-3 hover:border-white hover:text-white hover:bg-neutral-800 rounded-t-lg transition duration-300 ease-in-out">
-                        <div class="flex items-center justify-between">
-                            <p class="text-white font-semibold truncate">Nama Sertifikat</p>
-                            <p class="ms-2">20XX</p>
-                        </div>
-                        <p>Penyelenggara Sertifikat</p>
-                    </div>
-                </a>
-            </div>
-            <!-- Content Certificates End -->
-        </div>
-
-    </div>
-
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/fffa6787c5.js" crossorigin="anonymous"></script>
     <script src="/src/js/eyes.js"></script>
     <script src="/src/js/tab.js"></script>
     <script src="/src/js/about.js"></script>
+
 </body>
 
 </html>

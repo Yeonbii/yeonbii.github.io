@@ -1,7 +1,7 @@
 const avatarImg = document.querySelector('#avatar');
-const toggle = document.querySelector('#menuToggle');
+const toggle = document.querySelector('#menu-toggle');
 const iconToggle = toggle.querySelector('i');
-const options = document.querySelector('#menuOptions');
+const options = document.querySelector('#menu-options');
 
 let isHovered = false;
 

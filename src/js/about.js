@@ -19,7 +19,7 @@ function populateData(data) {
     data.forEach((item, index)  => {
         const row = document.createElement('a');
         row.innerHTML = `
-                    <div class="border-b border-secondary p-3 mb-3 hover:border-white hover:text-white hover:bg-neutral-800 rounded-t-lg transition duration-300 ease-in-out">
+                    <div class="border-b border-secondary rounded-t-lg p-3 mb-3 hover:bg-neutral-900 hover:border-white transition duration-300 ease-in-out">
                         <div class="flex items-center justify-between">
                             <p class="text-white font-semibold truncate">${item.title}</p>
                             <p class="ms-2">${item.year}</p>

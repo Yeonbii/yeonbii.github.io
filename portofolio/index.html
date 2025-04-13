@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yeonbii</title>
+  <title>Yeonbii - Portofolio</title>
   <link href="/src/css/output.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/src/img/icon-border.png">
 </head>
@@ -17,47 +17,49 @@
       <div class="flex items-center justify-between">
 
         <!-- Logo -->
-        <div class="flex items-center py-2">
-          <a href="/" class="">
-            <img src="/src/img/icon-border.png" alt="icon" width="40" height="40">
-          </a>
-        </div>
-        <!-- End Logo -->
+        <a href="/" class="py-2" aria-label="Back to Main Page">
+          <img src="/src/img/icon-border.png" alt="icon" width="40" height="40" />
+        </a>
 
         <!-- Menu -->
-        <nav id="nav-menu" class="py-5 max-w-full">
+        <nav id="nav-menu" class="py-5 max-w-full" aria-label="Main Navigation">
           <ul class="flex justify-end">
             <li class="group">
               <a href="/portofolio"
-                class="text-white text-base py-2 ms-2 group-hover:text-white transition ease-in-out duration-200">
+                class="text-white text-base py-2 ms-2 group-hover:text-white transition duration-200">
                 Home
               </a>
             </li>
             <li class="group">
               <a href="/portofolio/about.html"
-                class="text-base py-2 ms-2 group-hover:text-white transition ease-in-out duration-200">
+                class="text-base py-2 ms-2 group-hover:text-white transition duration-200">
                 About
               </a>
             </li>
             <li class="group">
-              <a href="#" class="text-base py-2 ms-2 group-hover:text-white transition ease-in-out duration-200">
+              <a href="/portofolio/projects.html"
+                class="text-base py-2 ms-2 group-hover:text-white transition duration-200">
                 Projects
               </a>
             </li>
           </ul>
         </nav>
-        <!-- Menu End -->
+        <!-- End Menu -->
 
       </div>
     </div>
   </header>
-  <!-- Header End -->
+  <!-- End Header -->
 
-  <div class="container">
+  <main class="container">
 
-    <!-- ASCII Art - https://patorjk.com/software/taag/#p=display&f=Rectangles&t=Yeonbii -->
-    <div class="flex justify-center">
-      <pre class="text-sm font-mono text-white whitespace-pre">
+    <!-- Section: Introduction -->
+    <section aria-label="Introduction">
+      <div class="w-full">
+
+        <!-- ASCII Art - https://patorjk.com/software/taag/#p=display&f=Rectangles&t=Yeonbii -->
+        <div class="flex justify-center">
+          <pre class="text-sm font-mono text-white whitespace-pre">
 
 
  __ __             _   _ _ 
@@ -67,35 +69,45 @@
                            
 
       </pre>
-    </div>
-    <!-- ASCII Art End -->
+        </div>
+        <!-- ASCII Art End -->
 
-    <p class="mb-1 text-center">
-      Someone who enjoys building things with code, learning something new every day, and slowly carving my path in the world of programming.
-    </p>
+        <p class="mb-1 text-center">
+          Someone who enjoys building things with code, learning something new every day, and slowly carving my path in
+          the
+          world of programming.
+        </p>
 
-    <div class="w-full border-t border-neutral-700 mt-12 pt-4">
-      <div class="flex items-center justify-center">
-        <a href="#"
-          class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="#"
-          class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="#"
-          class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="#"
-          class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
       </div>
-    </div>
+    </section>
+    <!-- Section End -->
 
-  </div>
+    <!-- Section: Social Media -->
+    <section aria-label="Social Media">
+      <div class="w-full border-t border-neutral-700 mt-12 pt-4">
+        <div class="flex items-center justify-center">
+          <a href="https://github.com/Yeonbii" target="_blank"
+            class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-shalahuddin-726111304/" target="_blank"
+            class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/shalahuddinii/" target="_blank"
+            class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="mailto:shalahuddinm002@gmail.com"
+            class="w-9 h-9 rounded-full flex justify-center items-center text-2xl mx-2 hover:text-white hover:text-3xl transition ease-in-out duration-200">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Section End -->
+
+  </main>
 
   <script src="https://kit.fontawesome.com/fffa6787c5.js" crossorigin="anonymous"></script>
 </body>
