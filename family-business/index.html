@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeonbii - Family Business</title>
+    <link href="/src/css/output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/src/img/icon-border.png">
+</head>
+
+<body class="bg-black text-secondary">
+
+    <!-- Header -->
+    <header class="w-full flex items-center">
+        <div class="container">
+            <div class="flex items-center justify-between">
+
+                <!-- Logo -->
+                <a href="#" class="py-2" aria-label="Back to Main Page">
+                    <img src="/src/img/icon-border.png" alt="icon" width="40" height="40" />
+                </a>
+
+                <!-- Name Page -->
+                <a href="#" class="text-white text-base py-7 ms-2" aria-label="Page Name">
+                    Family Business
+                </a>
+                <!-- End Menu -->
+
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main class="container">
+
+        <h1 class="text-xl font-bold text-white mb-3">List Harga Barang</h1>
+
+        <section aria-label="filter">
+            <div class="flex flex-wrap">
+                <div class="w-full mb-3 md:w-1/3">
+                    <select name="categoryFilter" id="categoryFilter"
+                        class="w-full border-b p-3 text-white border-secondary bg-black">
+                        <option value="0">Semua Kategori</option>
+                        <option value="0">Semua Kategori</option>
+                        <option value="0">Semua Kategori</option>
+                        <option value="0">Semua Kategori</option>
+                    </select>
+                </div>
+                <div class="w-full mb-3 md:w-2/3 md:ps-3">
+                    <input type="text" id="searchField" placeholder="Cari barang..."
+                        class="w-full border-b p-3 text-white border-secondary">
+                </div>
+            </div>
+        </section>
+
+        <section aria-label="product-list">
+            <div id="product-list" class="w-full">
+                <div
+                    class="items border-b border-secondary rounded-t-lg p-3 mb-3 hover:border-white hover:bg-neutral-900 transition duration-300 ease-in-out cursor-pointer">
+                    <div class="flex items-top justify-between">
+                        <p class="text-white font-semibold pe-2">Nama Barang</p>
+                        <p class="w-1/3 text-end md:w-1/4">Harga</p>
+                    </div>
+                    <div class="bg-secondary text-black mt-3 p-1.5 rounded">
+                        <div class="flex items-top justify-between">
+                            <p class="font-bold pe-2">Harga</p>
+                            <p>Rp100,000</p>
+                        </div>
+                        <div class="flex items-top justify-between">
+                            <p class="font-bold pe-2">Harga Satuan</p>
+                            <p>Rp20,000</p>
+                        </div>
+                        <div class="flex flex-wrap items-top justify-between">
+                            <p class="font-bold pe-2">Keterangan</p>
+                            <p>-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/fffa6787c5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
