@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yeonbii - Family Business</title>
+    <title>Yeonbii - List Harga Barang</title>
     <link href="/src/css/output.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/src/img/icon-border.png">
 </head>
@@ -40,15 +40,12 @@
             <div class="flex flex-wrap">
                 <div class="w-full mb-3 md:w-1/3">
                     <select name="categoryFilter" id="categoryFilter"
-                        class="w-full border-b p-3 text-white border-secondary bg-black">
-                        <option value="0">Semua Kategori</option>
-                        <option value="0">Semua Kategori</option>
-                        <option value="0">Semua Kategori</option>
+                        class="w-full border-b p-3 border-secondary bg-black text-white">
                         <option value="0">Semua Kategori</option>
                     </select>
                 </div>
                 <div class="w-full mb-3 md:w-2/3 md:ps-3">
-                    <input type="text" id="searchField" placeholder="Cari barang..."
+                    <input type="search" id="searchField" placeholder="Cari barang..."
                         class="w-full border-b p-3 text-white border-secondary">
                 </div>
             </div>
@@ -56,13 +53,16 @@
 
         <section aria-label="product-list">
             <div id="product-list" class="w-full">
-                <div
-                    class="items border-b border-secondary rounded-t-lg p-3 mb-3 hover:border-white hover:bg-neutral-900 transition duration-300 ease-in-out cursor-pointer">
+                <!-- <div class="items border-b border-secondary rounded-t-lg p-3 mb-3 hover:border-white hover:bg-neutral-900 transition duration-300 ease-in-out cursor-pointer">
                     <div class="flex items-top justify-between">
                         <p class="text-white font-semibold pe-2">Nama Barang</p>
                         <p class="w-1/3 text-end md:w-1/4">Harga</p>
                     </div>
-                    <div class="bg-secondary text-black mt-3 p-1.5 rounded">
+                    <div class="item-detail bg-secondary text-black mt-3 p-1.5 rounded">
+                        <div class="flex items-top justify-between">
+                            <p class="font-bold pe-2">Kategori</p>
+                            <p>A</p>
+                        </div>
                         <div class="flex items-top justify-between">
                             <p class="font-bold pe-2">Harga</p>
                             <p>Rp100,000</p>
@@ -76,13 +76,14 @@
                             <p>-</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
     </main>
 
     <script src="https://kit.fontawesome.com/fffa6787c5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

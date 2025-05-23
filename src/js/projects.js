@@ -5,7 +5,7 @@ async function loadData() {
         const response = await fetch('/src/json/projects.json');
         jsonData = await response.json();
         populateData(jsonData);
-        console.log(jsonData);
+        // console.log(jsonData);
     } catch (error) {
         console.error('Gagal memuat data:', error);
     }
@@ -66,6 +66,7 @@ function populateData(data) {
                     linkDiv.classList.add('hidden');
                     linkDiv.classList.remove('flex', 'flex-wrap', 'items-center');
                 };
+                i.classList.add('border-secondary');
                 i.classList.remove('border-white', 'bg-neutral-900');
             });
 
@@ -75,6 +76,7 @@ function populateData(data) {
                 currentLinkDiv.classList.add('flex', 'flex-wrap', 'items-center');
             };
             row.classList.add('border-white', 'bg-neutral-900');
+            row.classList.remove('border-secondary');
         });
 
         projectList.appendChild(row);

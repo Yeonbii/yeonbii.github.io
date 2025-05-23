@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Tango Coklat",
+        "category": "Makanan",
+        "price": 18000,
+        "unit_price": 2000,
+        "description" : "-"
+    },
+    {
+        "name": "Tango Vanila",
+        "category": "Makanan",
+        "price": 9000,
+        "unit_price": 1000,
+        "description" : "-"
+    },
+    {
+        "name": "Siip Kotak (Kecil)",
+        "category": "Makanan",
+        "price": 9000,
+        "unit_price": 500,
+        "description" : "-"
+    },
+    {
+        "name": "Siip Besar",
+        "category": "Makanan",
+        "price": 9000,
+        "unit_price": 2000,
+        "description" : "Bentuk Bantal"
+    },
+    {
+        "name": "Siip Renteng",
+        "category": "Makanan",
+        "price": 9000,
+        "unit_price": 1000,
+        "description" : "-"
+    },
+    {
+        "name": "Nabati Ahh Kecil",
+        "category": "Makanan",
+        "price": 9000,
+        "unit_price": 500,
+        "description" : "-"
+    },
+    {
+        "name": "Nabati Ahh Besar",
+        "category": "Makanan",
+        "price": 9000,
+        "unit_price": 1000,
+        "description" : "-"
+    },
+    {
+        "name": "Keju Cake",
+        "category": "Makanan",
+        "price": 22000,
+        "unit_price": 2000,
+        "description" : "-"
+    },
+    {
+        "name": "Oreo Soft Cake",
+        "category": "Makanan",
+        "price": 22000,
+        "unit_price": 2000,
+        "description" : "-"
+    },
+    {
+        "name": "Superstar",
+        "category": "Makanan",
+        "price": 18000,
+        "unit_price": 1000,
+        "description" : "-"
+    },
+    {
+        "name": "Superstar Snaps",
+        "category": "Makanan",
+        "price": 22000,
+        "unit_price": 2000,
+        "description" : "-"
+    }
+]
