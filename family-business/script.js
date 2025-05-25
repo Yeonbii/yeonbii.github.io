@@ -7,7 +7,7 @@ const paginationInfo = document.querySelector('#pagination-info');
 let jsonData = [];
 
 let currentPage = 1;
-const itemsPerPage = 5;
+const itemsPerPage = 10;
 
 async function loadData() {
     try {
