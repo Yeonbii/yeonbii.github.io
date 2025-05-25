@@ -3,140 +3,140 @@
         "name": "Kecap ABC Besar",
         "category": "Kecap",
         "price": 20000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap ABC Botol Besar",
         "category": "Kecap",
         "price": 32000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap ABC Botol Kecil",
         "category": "Kecap",
         "price": 9000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap ABC Botol Sedang",
         "category": "Kecap",
         "price": 20000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap ABC Sedang",
         "category": "Kecap",
         "price": 8500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Bangau Besar",
         "category": "Kecap",
         "price": 25000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Bangau Botol Kecil",
         "category": "Kecap",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Bangau Botol Sedang",
         "category": "Kecap",
         "price": 22000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Bangau Sedang",
         "category": "Kecap",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Indofood Besar",
         "category": "Kecap",
         "price": 16000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Indofood Botol",
         "category": "Kecap",
         "price": 13000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Indofood Sedang",
         "category": "Kecap",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Nasional Besar",
         "category": "Kecap",
         "price": 16000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Nasional Botol",
         "category": "Kecap",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Nasional Renteng",
         "category": "Kecap",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Nasional Sedang",
         "category": "Kecap",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Sedap Besar",
         "category": "Kecap",
         "price": 17000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Sedap Besar Berhadiah Piring",
         "category": "Kecap",
         "price": 21000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Sedap Botol Kecil ",
         "category": "Kecap",
         "price": 8500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Sedap Botol Sedang",
         "category": "Kecap",
         "price": 18000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -150,21 +150,21 @@
         "name": "Kecap Sedap Renteng",
         "category": "Kecap",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kecap Sedap Sedang",
         "category": "Kecap",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Aneka Biskuit",
         "category": "Makanan",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -192,7 +192,7 @@
         "name": "Butter Coconut",
         "category": "Makanan",
         "price": 4000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -213,7 +213,7 @@
         "name": "Follow Balado",
         "category": "Makanan",
         "price": 11000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -227,28 +227,28 @@
         "name": "Gabin Master",
         "category": "Makanan",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Hatari Besar",
         "category": "Makanan",
         "price": 6000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Hatari Kecil",
         "category": "Makanan",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Kacang Atom",
         "category": "Makanan",
         "price": 2000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -262,7 +262,7 @@
         "name": "Kalpa Kecil",
         "category": "Makanan",
         "price": 1000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -276,7 +276,7 @@
         "name": "Koko Krunch Cup",
         "category": "Makanan",
         "price": 8500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "Mangkok"
     },
     {
@@ -290,35 +290,35 @@
         "name": "Malkis Abon",
         "category": "Makanan",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Malkis Abon Besar",
         "category": "Makanan",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Malkis Coklat",
         "category": "Makanan",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Malkis Hijau",
         "category": "Makanan",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Malkis Merah",
         "category": "Makanan",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -332,7 +332,7 @@
         "name": "Milo Cup",
         "category": "Makanan",
         "price": 8500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "Mangkok"
     },
     {
@@ -353,7 +353,7 @@
         "name": "Nabati GRANDE",
         "category": "Makanan",
         "price": 2000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -367,7 +367,7 @@
         "name": "Nabati Wafer Besar",
         "category": "Makanan",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -395,56 +395,56 @@
         "name": "Roma Durian",
         "category": "Makanan",
         "price": 9000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Roma Kelapa",
         "category": "Makanan",
         "price": 9000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Roma Kelapa Cream",
         "category": "Makanan",
         "price": 9500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Roma Sandwich",
         "category": "Makanan",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Rose Coklat Biskuit",
         "category": "Makanan",
         "price": 4500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Rose Cream Biskuit",
         "category": "Makanan",
         "price": 4500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sari Gandum",
         "category": "Makanan",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sari Gandum Coklat",
         "category": "Makanan",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -472,28 +472,28 @@
         "name": "Silver Quen Kotak",
         "category": "Makanan",
         "price": 9000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Silver Quen Toples",
         "category": "Makanan",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Slai Olai",
         "category": "Makanan",
         "price": 9000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "STAR Cup",
         "category": "Makanan",
         "price": 8500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "Mangkok"
     },
     {
@@ -535,126 +535,126 @@
         "name": "Laurier Bersayap",
         "category": "Pembalut",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Malam Isi 12",
         "category": "Pembalut",
         "price": 16000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Malam P 30 & 35 isi 6",
         "category": "Pembalut",
         "price": 8500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Malam Renteng Isi 2",
         "category": "Pembalut",
         "price": 3000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Pantyliner Isi 20",
         "category": "Pembalut",
         "price": 6000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Pantyliner Isi 40",
         "category": "Pembalut",
         "price": 11000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Sirih Besar",
         "category": "Pembalut",
         "price": 17000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Sirih Kecil",
         "category": "Pembalut",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Laurier Tali Bersayap",
         "category": "Pembalut",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Pantyliner Sirih",
         "category": "Pembalut",
         "price": 14000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Malam",
         "category": "Pembalut",
         "price": 9000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Merah Besar",
         "category": "Pembalut",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Merah Tak Bersayap Renteng",
         "category": "Pembalut",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Sirih Besar",
         "category": "Pembalut",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Sirih P 30",
         "category": "Pembalut",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Sirih Renteng Biasa",
         "category": "Pembalut",
         "price": 6000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Ungu",
         "category": "Pembalut",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Protex Ungu Bersayap Renteng",
         "category": "Pembalut",
         "price": 5500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -724,21 +724,21 @@
         "name": "Merries Besar (L)",
         "category": "Popok",
         "price": 19000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Merries Besar (S)",
         "category": "Popok",
         "price": 18000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Merries Besar (XL)",
         "category": "Popok",
         "price": 20000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
@@ -766,210 +766,210 @@
         "name": "Moko Moko Isi 3 (L)",
         "category": "Popok",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Moko Moko Isi 3 (M)",
         "category": "Popok",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Moko Moko Isi 3 (XL)",
         "category": "Popok",
         "price": 6500,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku (L)",
         "category": "Popok",
         "price": 2000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku (L) Isi 16",
         "category": "Popok",
         "price": 127000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku (L) Isi 2",
         "category": "Popok",
         "price": 13000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku (M) Isi 2",
         "category": "Popok",
         "price": 12000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku (XL) Isi 2",
         "category": "Popok",
         "price": 16000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku Orang Tua (L)",
         "category": "Popok",
         "price": 67000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku Orang Tua (M)",
         "category": "Popok",
         "price": 75000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Popoku Orang Tua (XL)",
         "category": "Popok",
         "price": 57000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal ABC Botol Kecil",
         "category": "Sambal",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal ABC Botol Sedang",
         "category": "Sambal",
         "price": 14000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Bangkok Besar",
         "category": "Sambal",
         "price": 16000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Bangkok Kecil",
         "category": "Sambal",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Indofood Extra Pedas Botol Kecil",
         "category": "Sambal",
         "price": 6000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Indofood Extra Pedas Botol Sedang",
         "category": "Sambal",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Indofood Pedas Botol Kecil",
         "category": "Sambal",
         "price": 6000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Indofood Pedas Dahsyat Botol Kecil",
         "category": "Sambal",
         "price": 7000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Indofood Pedas Dahsyat Botol Sedang",
         "category": "Sambal",
         "price": 12000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Sambal Nasional",
         "category": "Sambal",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat 99",
         "category": "Tomat",
         "price": 3000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "Bentuk Bungkus"
     },
     {
         "name": "Tomat ABC Botol Besar",
         "category": "Tomat",
         "price": 14000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat ABC Botol Kecil",
         "category": "Tomat",
         "price": 8000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat Asli Catsup Botol",
         "category": "Tomat",
         "price": 17000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat Dua Merak",
         "category": "Tomat",
         "price": 2000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat Indofood Besar",
         "category": "Tomat",
         "price": 10000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat Indofood Kecil",
         "category": "Tomat",
         "price": 6000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat Niki Sari",
         "category": "Tomat",
         "price": 5000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     },
     {
         "name": "Tomat Tongchin",
         "category": "Tomat",
         "price": 4000,
-        "unit_price": "-",
+        "unit_price": null,
         "description": "-"
     }
 ]
